@@ -8,7 +8,7 @@ The module is used to deploy azure storageaccount over terraform with a default 
 
     module "storageaccount" {
 
-    source = "github.com/la-cc/terraform-azure-storageaccount?ref=1.0.0"
+    source = "github.com/Hamburg-Port-Authority/terraform-azure-storageaccount?ref=1.0.1"
 
     name                = var.name
     resource_group_name = var.resource_group_name
